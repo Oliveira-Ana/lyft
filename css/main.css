@@ -1,165 +1,152 @@
-
 *{
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-}/*colocando em tudo a fonte e margin*/
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
 
 .section{
-    background-image: url(../assets/images/hero.gif);
-    background-size: 100%;
-    background-position: left 50%;
-    height: 580px;
-} /*ajustando background*/
+  background-image: url(../assets/images/hero.gif);
+  background-size: 100%;
+  background-position: left 50%;
+  height: 580px;
+}
 
 .header{
-    padding: 25px 98px 30px 68px;
-    display: flex;
-    justify-content: space-between;
-}/*ajustando o header espaço do texto*/
+  padding: 25px 98px 30px 68px;
+  display: flex;
+  justify-content: space-between;
+}
 
 .logo-Lyft{
-    width: 55px;
-}/*tamanho do logo*/
+  width: 55px;
+}
 
 ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 20px;
-    color: white;
-    font-size: 17px;
-}/*ajustando a lista*/
-
+  list-style: none;
+  display: inline-block;
+  padding: 8px 20px;
+  color: white;
+  font-size: 17px;
+}
 
 .loginBorder{
-    border: 1px solid #fff;
-    border-radius: 5px;
-    padding: 10px 15px;
-}/*criando a borda do login*/
-
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
 
 .introdution{
-    background-color: #fff;
-    width: 500px;
-    float: right;
-    padding: 25px 30px;
-    color: #352384;
-    margin-top: 30px;
-}/*ajustando introdution*/
+  background-color: #fff;
+  width: 500px;
+  float: right;
+  padding: 25px 30px;
+  color: #352384;
+  margin-top: 30px;
+}
 
 .introdution h1{
-    font-size: 35px;
-    font-weight: 600;
-    width: 300px;
-    padding-top: 20px;
-}/*configurando todo h1 do introdution*/
+  font-size: 35px;
+  width: 300px;
+  padding-top: 20px;
+}
 
 .introdution h2{
-    font-size: 16px;
-    padding: 20px 0;
-}/*configurando todo h2 do introdution*/
+  font-size: 16px;
+  padding: 20px;
+}
 
 input{
-    padding: 5px;
-    width: 400px;
-    border: none;
-    display: block;
-    border-bottom: 2px solid #352384;
-    background-color: #fff;
-    margin-bottom: 10px;
-}/*configurando a area de input*/
+  padding: 5px;
+  width: 400px;
+  border: none;
+  display: block;
+  border-bottom: 2px solid #352384;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
 
 .becomeButton {
-    margin: 3px 10px 20px 0;
-    padding: 10px 20px;
-    background-color: #FF00BF;
-    color: #fff;
-    border-radius: 8px;
-    border: none;
-    font-size: 12px;
-}/*configurando o botão*/
+  margin: 3px 10px 20px 0;
+  padding: 10px 20px;
+  background-color: #FF00BF;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  font-size: 12px;
+}
 
 .txtIntro a{
-    color: #728099;
-    margin-left: 15px;
+  color: #728099;
+  margin-left: 15px;
 }
 
 .txtIntro p{
-    color: #728099;
-    font-size: 12px;
-    margin-top: 12px;
+  color: #728099;
+  font-size: 12px;
+  margin-top: 12px;
 }
 
 .about{
-    background: linear-gradient(#76278F, #2B1E66);
-    height: 610px;
-    color: #fff;
-    display: flex;
-    justify-content: space-around;
-    padding: 20px 70px 0 110px;
-}/*configurando o about*/
+  background: linear-gradient(#76278F, #2B1E66);
+  height: 610px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 70px 0 110px;
+}
 
 .about h1{
-    font-size: 25px;
-    padding: 20px 0;
-}/*configurando o h1 do about*/
+  font-size: 25px;
+  padding: 20px 0;
+}
 
 .about p{
-    font-size: 16px;
-    padding: 12px 0;
-    margin-bottom: 10px;
-}/*configurando o p do about*/
-
-.about span{
-    display: block;
+  font-size: 16px;
+  padding: 12px 0;
+  margin-bottom: 10px;
 }
 
 small{
-    font-weight: 800;
-    font-size: 10px;
+  font-weight: 800;
+  font-size: 10px;
 }
 
 .videoOne, .videoTwo, .videoThree{
-    display: flex;
+  display: flex;
 }
 
 .txt-about{
-    padding: 20px;
+  padding: 20px;
 }
 .txtVideo{
-    width: 48%;
-    padding: 48px;
-
-}
-
-.videoTwo .txtVideo{
-    width: 40%;
+  width: 48%;
+  padding: 48px;
 }
 
 footer{
-    background-color: #333447;
-    padding: 40px 120px;
+  background-color: #333447;
+  padding: 40px 120px;
 }
 
 .menuFooter{
-    display: flex;
-    justify-content: space-between;
-    padding-right: 100px;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  color: white;
 }
 
 footer img{
-    width: 140px;
-    height: 35px;
+  width: 140px;
+  height: 35px;
 }
 
 .microsoft{
-    height: 50px;
+  height: 50px;
 }
 footer small{
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    color: #fff;
-    padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  color: #fff;
+  padding: 40px 0;
 }
